@@ -1,0 +1,27 @@
+{
+  "name": "perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsnd index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^11.13.7",
+    "@types/redis": "^2.8.12",
+    "prettier": "^1.17.0",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "dataloader": "^1.4.0",
+    "redis": "^2.8.0"
+  }
+}
